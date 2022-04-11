@@ -2,9 +2,9 @@ import { useState } from "react";
 import "./styles.css";
 
 function App() {
-  const [score, setCounter] = useState(0);
-  const [wicket, scoreCount] = useState(0);
-  const [over, overCount] = useState(0.0);
+  const [score, setCounter] = useState(76);
+  const [wicket, scoreCount] = useState(2);
+  const [over, overCount] = useState(50);
   return (
     <div className="App">
       <h3>India:</h3>
